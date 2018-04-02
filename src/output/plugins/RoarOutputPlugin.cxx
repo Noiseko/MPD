@@ -281,6 +281,7 @@ roar_tag_convert(TagType type, bool *is_uuid)
 		case TAG_MUSICBRAINZ_TRACKID:
 		case TAG_MUSICBRAINZ_RELEASETRACKID:
 		case TAG_MUSICBRAINZ_WORKID:
+		case TAG_MUSICBRAINZ_RECORDINGID:
 			*is_uuid = true;
 			return "HASH";
 
